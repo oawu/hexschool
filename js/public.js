@@ -5,5 +5,10 @@
  */
 
 $(function () {
-
+  $('#menu > a').click (function () {
+    $(this).toggleClass ('active');
+  });
+  $('#menu > .sub').each (function () {
+    $(this).addClass ('n' + $(this).find ('> *').length);
+  });
 });

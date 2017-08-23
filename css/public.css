@@ -1,1 +1,348 @@
-﻿*,*:after,*:before{vertical-align:top;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}*::-moz-selection,*:after::-moz-selection,*:before::-moz-selection{color:#fff;background-color:#96c8ff}*::selection,*:after::selection,*:before::selection{color:#fff;background-color:#96c8ff}html{min-height:100%}html body{position:relative;display:inline-block;width:100%;min-height:100%;margin:0;padding:0;color:#5a5a5a;text-align:center;font-size:medium;font-family:Roboto, RobotoDraft, Helvetica, Arial, sans-serif, "微軟正黑體", "Microsoft JhengHei";background:#fff;background-image:url('/hexschool/img/bg/grunge.png');-moz-osx-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}
+@charset "UTF-8";
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2017 OA Wu Design
+ * @license     http://creativecommons.org/licenses/by-nc/2.0/tw/
+ */
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased; }
+  *::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+    color: white;
+    background-color: #96c8ff; }
+  *::selection, *:after::selection, *:before::selection {
+    color: white;
+    background-color: #96c8ff; }
+
+html {
+  min-height: 100%; }
+  html body {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+    text-align: center;
+    font-size: medium;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif, "微軟正黑體", "Microsoft JhengHei";
+    background: white;
+    background-image: url('/hexschool/img/bg/grunge.png');
+    -moz-osx-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased; }
+
+#info_ckb, #menu_ckb {
+  position: fixed;
+  top: -999px;
+  left: -999px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  display: none; }
+
+#menu_ckb:checked ~ #header .logo {
+  width: 0; }
+#menu_ckb:checked ~ #header .title {
+  width: calc(100% - 55px - 35px - 16px); }
+#menu_ckb:checked ~ #menu {
+  width: 55px; }
+  #menu_ckb:checked ~ #menu a > span {
+    display: none; }
+  #menu_ckb:checked ~ #menu a + a:after {
+    display: none; }
+
+@media screen and (max-width: 449px) and (min-width: 0) {
+  #info_ckb:checked ~ #info {
+    bottom: 8px;
+    left: 8px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1; }
+  #info_ckb:checked ~ .cover {
+    top: 0;
+    left: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1; } }
+@media screen and (min-width: 450px) {
+  #info_ckb:checked ~ #info {
+    top: 63px;
+    right: 8px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1; }
+  #info_ckb:checked ~ .cover {
+    top: 0;
+    left: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1; } }
+
+#header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background-color: white;
+  z-index: 100;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  *zoom: 1; }
+  #header:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both; }
+  #header > * {
+    float: left;
+    display: inline-block;
+    height: 100%; }
+  #header .logo {
+    width: 320px;
+    color: white;
+    font-size: 35px;
+    background-color: #40a798;
+    -moz-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s; }
+  #header .menu_btn {
+    width: 55px;
+    font-size: 23px;
+    cursor: pointer; }
+  #header .avatar {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin-right: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+    #header .avatar img {
+      width: 100%; }
+  #header .title {
+    width: calc(100% - 320px - 55px - 35px - 16px);
+    font-size: 20px;
+    text-align: left;
+    padding-left: 16px;
+    -moz-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s; }
+
+#menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  display: inline-block;
+  width: 320px;
+  height: 100%;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  padding-top: 63px;
+  text-align: left;
+  background-color: #2a363b;
+  -moz-transition: width 0.3s;
+  -o-transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s; }
+  #menu a {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.75); }
+    #menu a:before {
+      display: inline-block;
+      width: 55px;
+      height: 45px;
+      text-align: center; }
+    #menu a:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 45px;
+      display: none;
+      width: calc(100% - 45px);
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.3); }
+    #menu a > span {
+      display: inline-block;
+      width: calc(100% - 55px); }
+    #menu a + a:after {
+      display: inline-block; }
+  #menu > a {
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    text-decoration: none; }
+    #menu > a.active + .sub.n1 {
+      height: 40px; }
+    #menu > a.active + .sub.n2 {
+      height: 80px; }
+    #menu > a.active + .sub.n3 {
+      height: 120px; }
+    #menu > a.active + .sub.n4 {
+      height: 160px; }
+    #menu > a.active + .sub.n5 {
+      height: 200px; }
+    #menu > a.active + .sub.n6 {
+      height: 240px; }
+    #menu > a.active + .sub.n7 {
+      height: 280px; }
+    #menu > a.active + .sub.n8 {
+      height: 320px; }
+    #menu > a.active + .sub.n9 {
+      height: 360px; }
+    #menu > a.active + .sub.n10 {
+      height: 400px; }
+  #menu .sub {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    #menu .sub > a {
+      height: 40px;
+      line-height: 40px; }
+
+#info {
+  position: fixed;
+  display: inline-block;
+  height: 300px;
+  background-color: white;
+  z-index: 110;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 -1px 1px #e0e0e0;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 -1px 1px #e0e0e0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4), 0 -1px 1px #e0e0e0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0; }
+  @media screen and (max-width: 449px) and (min-width: 0) {
+    #info {
+      left: -9999px;
+      bottom: -300px;
+      width: calc(100% - 8px * 2);
+      -moz-transition: opacity 0.3s, bottom 0.3s;
+      -o-transition: opacity 0.3s, bottom 0.3s;
+      -webkit-transition: opacity 0.3s, bottom 0.3s;
+      transition: opacity 0.3s, bottom 0.3s; } }
+  @media screen and (min-width: 450px) {
+    #info {
+      top: -9999px;
+      right: -9999px;
+      width: 300px;
+      -moz-transition: opacity 0.3s;
+      -o-transition: opacity 0.3s;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s; }
+      #info:before, #info:after {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg); }
+      #info:before {
+        top: -10px;
+        right: 17px;
+        background-color: #8c8c8c; }
+      #info:after {
+        top: -9px;
+        right: 17px;
+        background-color: white; } }
+
+.cover {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 105;
+  background-color: rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  top: -9999px;
+  left: -9999px;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s; }

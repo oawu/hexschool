@@ -7,6 +7,7 @@
 
     <title></title>
 
+    <link href="css/icon.css" rel="stylesheet" type="text/css" />
     <link href="css/public.css" rel="stylesheet" type="text/css" />
 
     <script src="js/jquery_v1.10.2/jquery-1.10.2.min.js" language="javascript" type="text/javascript" ></script>
@@ -14,6 +15,55 @@
 
   </head>
   <body lang="zh-tw">
-    Hi, 世界你好！
+    <input type='checkbox' id='menu_ckb' >
+    <input type='checkbox' id='info_ckb'  >
+
+    <header id='header'>
+      <div class='logo'>LOGO</div>
+      <label class='icon-menu menu_btn' for='menu_ckb'></label>
+      <div class='title'>hi</div>
+      
+      <label class='avatar' for='info_ckb'>
+        <img src='img/avatar.png'>
+      </label>
+    </header>
+
+    <div id='menu'>
+      <a class='icon-home active'><span>選項 1</span></a>
+      <div class='sub'>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+      </div>
+
+      <a class='icon-home'><span>選項 1</span></a>
+      <div class='sub'>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+      </div>
+
+      <a class='icon-home'><span>選項 1</span></a>
+      <div class='sub'>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+        <a class='icon-home'><span>選項 1</span></a>
+      </div>
+      <!-- <a href="" class='icon-image'><span>選項 2</span></a>
+      <a href="" class='icon-price-tags'><span>選項 3</span></a>
+      <a href="" class='icon-home'><span>選項 4</span></a> -->
+    </div>
+
+    <div id='info'>
+
+    </div>
+    <label class='cover' for='info_ckb'></label>
+
   </body>
 </html>

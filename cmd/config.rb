@@ -25,7 +25,7 @@ additional_import_paths = ["./imports"]
   # expanded   沒縮排 沒壓縮
   # compact    有換行 有壓縮(半壓縮)
   # compressed 沒縮排 有壓縮(全壓縮)
-output_style = :compressed
+output_style = :nested
 
 # 在 css 中加入註解相對應於 scss 的第幾行，false、true
   # false     不需加入註解
